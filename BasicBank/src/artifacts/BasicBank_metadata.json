@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AmountNull",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "TransactionFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "addEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "removeEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"errors": {
+				"AmountNull()": [
+					{
+						"details": "it should work properly when called multiple times"
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"errors": {
+				"AmountNull()": [
+					{
+						"notice": "deposit ether into the contract"
+					}
+				]
+			},
+			"kind": "user",
+			"methods": {
+				"removeEther(uint256)": {
+					"notice": "used to withdraw ether from the contract (No restriction on withdrawals)"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BasicBank/src/BasicBank.sol": "BasicBank"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BasicBank/src/BasicBank.sol": {
+			"keccak256": "0xbb693b7546fdb85811d8dfefa2858736dbeff4a38901500fc920ccc51336acf0",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://3ececa0cd0c95031b8e98b27630b2a9154c2217d763241342c1f9ccb42d12812",
+				"dweb:/ipfs/QmU3Dcou5o6kbonsm4wQ6svrgWui79n6juhXmLgvm9q5pn"
+			]
+		}
+	},
+	"version": 1
+}

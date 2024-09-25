@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 // You may modify this contract
 contract Parent {
-    uint256 private _value;
+    uint256 internal _value;
 }
 
 contract Child is Parent {
@@ -13,11 +13,11 @@ contract Child is Parent {
            to `Parent` and `Child` contract ONLY.
     */
 
-    function setValue(uint256 newValue) public {
+    function setValue(uint256 newValue) external {
         _value = newValue;
     }
 
-    function getValue() public view returns (uint256) {
+    function getValue() external view returns (uint256) {
         return _value;
     }
 }

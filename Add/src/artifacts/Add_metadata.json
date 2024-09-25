@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Add/src/Add.sol": "Add"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Add/src/Add.sol": {
+			"keccak256": "0x9b92ba0e11d97d1782ffd9ee57f74c40f2b5d5a6d06c7d0951a74f3ea4ec1067",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://4a8757f623ac2ee077e2a066f5776397e1145c71ea033aa25816a9a0c72b8b48",
+				"dweb:/ipfs/QmZHKa7R8By7ca7v2JYJA7AdJCkBzR8yLq5334EGBkH8Jm"
+			]
+		}
+	},
+	"version": 1
+}
